@@ -1,18 +1,37 @@
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =PRIMARY
+    3. =HEADER
+    4. =FIGURE
+    5. =MAIN
+    6. =ASIDE
+    7. =FOOTER
+*/
+
+/* ===GLOBAL=== */
+
+/* Include padding and border in the width and height of all elements. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* ===PRIMARY=== */
+
+/* Set background color. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Set paragraph font size. */
 p {
     font-size: 16px;
 }
 
+/* ===HEADER=== */
 
+/* Define header appearance. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +39,7 @@ header {
     color: #ffffff;
 }
 
+/* Define h1 appearance. */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -29,6 +49,7 @@ h1 {
     color: #d9dcd6;
 }
 
+/* Define navigation link appearance. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -51,6 +72,9 @@ a {
     text-decoration: none;
 }
 
+/* ===FIGURE=== */
+
+/* Define size and position of cover image. */
 figure img {
     height: 800px;
     width: 100%;
@@ -58,12 +82,16 @@ figure img {
     margin-bottom: 25px;
 }
 
-section {
+/* ===MAIN=== */
+
+/* Define size of main content section. */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Define appearance of articles making up main section. */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -73,16 +101,19 @@ article {
     color: #ffffff;
 }
 
+/* Set size and position of article h2s. */
 article h2 {
     text-align: left;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Set size of article images. */
 article img {
     max-height: 200px;
 }
 
+/* Set position of article images. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -93,8 +124,9 @@ article img {
     margin-left: 25px;
 }
 
+/* ===ASIDE=== */
 
-
+/* Define appearance of aside next to main section. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -107,24 +139,26 @@ aside {
     color: #ffffff;
 }
 
+aside div {
+    margin-bottom: 32px;
+}
+
+/* Set size and position of aside h3s. */
 aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Set size and position of aside images. */
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-aside div {
-    margin-bottom: 32px;
-}
+/* ===FOOTER=== */
 
-
-
-
+/* Define appearance of footer. */
 footer {
     padding: 30px;
     clear: both;
@@ -132,6 +166,7 @@ footer {
     text-align: center;
 }
 
+/* Set size and position of footer h2s. */
 footer h2 {
     font-size: 20px;
     text-align: center;
