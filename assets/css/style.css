@@ -91,8 +91,8 @@ main {
     margin-left: 20px;
 }
 
-/* Define appearance of articles making up main section. */
-article {
+/* Define appearance of sections making up main section. */
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -102,14 +102,14 @@ article {
 }
 
 /* Set size and position of article h2s. */
-article h2 {
+section h2 {
     text-align: left;
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* Set size of article images. */
-article img {
+section img {
     max-height: 200px;
 }
 
