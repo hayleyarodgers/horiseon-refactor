@@ -1,4 +1,4 @@
-# usyd-bootcamp-challenge-week1
+# HoriSEOn Refactor
 
 ## Description
 
